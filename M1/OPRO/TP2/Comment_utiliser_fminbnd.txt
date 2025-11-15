@@ -1,0 +1,36 @@
+% Indications pour l'utilisation de la commande matlab fminbnd.
+%
+% On souhaite minimiser la fonctionnelle 
+% qui a "x" associe "J(u - x GJ(u))". 
+% Il s'agit d'une fonctionnelle de R dans R. 
+%
+% Pour cela, il nous faut entre autres definir 
+% la fonction qui associe "J(u - x GJ(u))" a "x". 
+%
+% Cela peut se faire selon l'exemple ci-dessous : 
+%
+
+% Nous avons defini une fonction a deux variables "x" et "c".
+
+   function f = myfun(x,c)
+   f = (x - c)^2;
+ 
+% Nous souhaitons minimiser cette fonction en la variable "x", 
+% avec "c" fixe. Il nous faut alors definir la fonction 
+% qui associe "myfun(x,c)" a "x". 
+% Dans ce cas, "c" joue le role d'un parametre. 
+% L'utilisation de fminbnd peut donc se faire ainsi : 
+ 
+      c = 1.5; % definition du parametre "c". 
+      x = fminbnd(@(x) myfun(x,c),0,1)
+
+% "@(x) myfun(x,c)" correspond a la fonction qui associe
+% "myfun(x,c)" a "x". "0" et "1" designent les bornes de 
+% l'intervalle de recherche du minimum. Pour en savoir plus, 
+% executez la commande 
+
+      help fminbnd
+ 
+% L'exemple fourni ici est donne par cette commande.  
+
+
