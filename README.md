@@ -1,2 +1,2 @@
-# Masters-M1-OPRO
-practical assignments for the class "Optimisation et Recherche Operationnelle"
+# Masters Degree at University of Rennes
+practical assignments for my degree in Applied Mathematics, specifically Scientific Computing and Modelling 
