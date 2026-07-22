@@ -29,11 +29,11 @@ In this mode, the program prompts the user to select a test case (1-6) and input
 **Compilation:**
 ```bash
 gcc main.c assemblage.c lecture.c utils.c cal1Elem.c tp2b.c dsmoapr.c assmat.f affsmd.f cdesse.f affsmo.f tri.f ltlpr.f rsprl.f rspru.f affsol.f impmpr.f -o prog -lm -lgfortran
-
+```
 **Execution:**
 ```bash
 ./prog
-
+```
 ### 2. Batch Mode (Automated Convergence Analysis)
 To automate the convergence analysis, we developed a dedicated batch pipeline (mainerr.c). This script loops through all mathematical test cases (1 to 6) across their respective mesh sequences, from the coarsest to the finest.
 It automatically assembles and solves the linear system for each configuration, computes the relative quadratic errors (L2) and relative maximum errors (L∞), and outputs the progress to the console.
@@ -41,9 +41,9 @@ It automatically assembles and solves the linear system for each configuration, 
 **Compilation:**
 ```bash
 gcc mainerr.c assemblage.c lecture.c utils.c cal1Elem.c tp2b.c tp4.c dsmoapr.c solex.c assmat.f affsmd.f cdesse.f affsmo.f tri.f ltlpr.f rsprl.f rspru.f affsol.f impmpr.f -o prog -lm -lgfortran
-
+```
 **Execution:**
 ```bash
 ./prog
-
+```
 Note: This mode requires no interactive input. Upon completion, all error data is automatically extracted and saved to erreurs.txt, which can then be imported into Python to plot the convergence curves.
