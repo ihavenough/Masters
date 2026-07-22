@@ -1,0 +1,210 @@
+Premier probleme du TP5 : - delta u = fomega
+ avec conditions de Dirichlet homogenes sur les 4 cotes du carre [0,1]x[0,1]
+On deduit fomega de la solution exacte u(x,y) = 16xy(1-x)(1-y).
+
+me041003(125) execxx.Linux3.18 
+Numero de l''exemple (entre 1 et 4) ?
+1
+Lecture du fichier ../../maillage/NUMREF
+
+Numero de reference du domaine : 0
+Numeros de reference Dirichlet homogene : 1 2 3 4 
+Numeros de reference Dirichlet non homogene : 
+Numeros de reference Neuman : 
+
+Donner le nom du fichier de maillage : /usr/local/ananum/csmef/tp5/maillage/d1t1_2 
+* Module lecfima *
+
+ ELEMENT=  1    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      0 0.0000E+00 0.3750E+00 0.5000E+00 
+      0 0.0000E+00 0.3750E+00 0.0000E+00 0.5000E+00 
+      0 0.0000E+00 0.2500E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  2    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      1 0.0000E+00 0.5417E+00 0.5000E+00 
+      1 0.0000E+00 0.5417E+00 0.0000E+00 0.5000E+00 
+      1 0.0000E+00 0.5833E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  3    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      0 0.0000E+00 0.3750E+00 0.5000E+00 
+      1 0.0000E+00 0.5417E+00 0.0000E+00 0.5000E+00 
+      0 0.0000E+00 0.4167E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  4    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      1 0.0000E+00 0.5417E+00 0.5000E+00 
+      0 0.0000E+00 0.3750E+00 0.0000E+00 0.5000E+00 
+      0 0.0000E+00 0.4167E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  5    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      1 0.0000E+00 0.5417E+00 0.5000E+00 
+      0 0.0000E+00 0.3750E+00 0.0000E+00 0.5000E+00 
+      0 0.0000E+00 0.4167E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  6    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      0 0.0000E+00 0.3750E+00 0.5000E+00 
+      1 0.0000E+00 0.5417E+00 0.0000E+00 0.5000E+00 
+      0 0.0000E+00 0.4167E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  7    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      1 0.0000E+00 0.5417E+00 0.5000E+00 
+      1 0.0000E+00 0.5417E+00 0.0000E+00 0.5000E+00 
+      1 0.0000E+00 0.5833E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+
+ ELEMENT=  8    DE TYPE=21001    NB NOEUDS= 3
+ NUDLEL    UDEL      SCMELM      MATELM
+      0 0.0000E+00 0.3750E+00 0.5000E+00 
+      0 0.0000E+00 0.3750E+00 0.0000E+00 0.5000E+00 
+      0 0.0000E+00 0.2500E+00 -.5000E+00 -.5000E+00 0.1000E+01 
+Sauvegarde de la S.M.D. dans le fichier SMD
+ ****** Affichage de la S.M.D. ******
+ Donner, dans l'intervalle [1,           9 ], les indices min et max des lignes a afficher. Taper q pour arreter.
+1 9
+
+ Ligne     SecMbr    Nuddir     Valdir
+     1   0.2500E+00       0   0.0000E+00
+     2   0.1333E+01       0   0.0000E+00
+     3   0.7500E+00       0   0.0000E+00
+     4   0.1333E+01       0   0.0000E+00
+     5   0.3333E+01       5   0.0000E+00
+     6   0.1333E+01       0   0.0000E+00
+     7   0.7500E+00       0   0.0000E+00
+     8   0.1333E+01       0   0.0000E+00
+     9   0.2500E+00       0   0.0000E+00
+ === MATRICE ===========================
+ --- Ligne 1 ---
+Col   1 :    1.00000    
+ --- Ligne            2  ---
+Col   1 :  -0.500000    
+Col   2 :    2.00000    
+ --- Ligne            3  ---
+Col   2 :  -0.500000    
+Col   3 :    1.00000    
+ --- Ligne            4  ---
+Col   2 :    0.00000    
+Col   1 :  -0.500000    
+Col   4 :    2.00000    
+ --- Ligne            5  ---
+Col   4 :   -1.00000    
+Col   2 :   -1.00000    
+Col   3 :    0.00000    
+Col   5 :    4.00000    
+ --- Ligne            6  ---
+Col   5 :   -1.00000    
+Col   3 :  -0.500000    
+Col   6 :    2.00000    
+ --- Ligne            7  ---
+Col   5 :    0.00000    
+Col   4 :  -0.500000    
+Col   7 :    1.00000    
+ --- Ligne            8  ---
+Col   7 :  -0.500000    
+Col   5 :   -1.00000    
+Col   6 :    0.00000    
+Col   8 :    2.00000    
+ --- Ligne            9  ---
+Col   8 :  -0.500000    
+Col   6 :  -0.500000    
+Col   9 :    1.00000    
+ Donner, dans l'intervalle [1,           9 ], les indices min et max des lignes a afficher. Taper q pour arreter.
+q
+Sauvegarde de la S.M.O. dans le fichier SMO
+  NOMBRE DE LIGNES :           9
+  NUMEROS DE LA PREMIERE ET DE LA DERNIERE LIGNE ?
+  TAPER Q POUR TERMINER.
+1 9
+ LIGNE     SECMB0      MATRI0(coefficients
+                              + colonnes)
+     1   0.0000E+00  0.1000E+01
+                              1
+     2   0.0000E+00  0.2000E+01
+                              2
+     3   0.0000E+00  0.1000E+01
+                              3
+     4   0.0000E+00  0.2000E+01
+                              4
+     5   0.3333E+01  0.4000E+01
+                              5
+     6   0.0000E+00  0.2000E+01
+                              6
+     7   0.0000E+00  0.1000E+01
+                              7
+     8   0.0000E+00  0.2000E+01
+                              8
+     9   0.0000E+00  0.1000E+01
+                              9
+  NUMEROS DE LA PREMIERE ET DE LA DERNIERE LIGNE ?
+  TAPER Q POUR TERMINER.
+q
+Impression de la matrice dans le fichier 1
+ Affichage des resultats selon le format :
+  x y SolApprochee SolExacte ErrRelative
+ Nombre de noeuds :            9
+ Donner le premier et le dernier numeros de noeud. (q pour terminer)
+1 9
+   0.00000E+00   0.00000E+00   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.50000E+00   0.00000E+00   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.10000E+01   0.00000E+00   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.00000E+00   0.50000E+00   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.50000E+00   0.50000E+00   0.83333E+00   0.10000E+01   0.18182E+00
+   0.10000E+01   0.50000E+00   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.00000E+00   0.10000E+01   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.50000E+00   0.10000E+01   0.00000E+00   0.00000E+00  -0.10000E+01
+   0.10000E+01   0.10000E+01   0.00000E+00   0.00000E+00  -0.10000E+01
+ Donner le premier et le dernier numeros de noeud. (q pour terminer)
+q
+ Erreur quadratique relative :   0.166666627    
+ Erreur maximum relative     :   0.166666627    
+me041003(126) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

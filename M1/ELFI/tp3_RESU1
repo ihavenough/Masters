@@ -1,0 +1,50 @@
+Cas ou :
+A_ij = DELTA_ij, FOMEGA = 1, UD = 100*x + y
+A_00 = 1, BN = 1, FN = 1
+avec car1x1t_1 et numeros de reference comme dans Tests.1x1
+
+
+me041001 ~/source/ens/csmef/assemb/PP (63) a.out 
+Lecture du fichier ../../maillage/NUMREF
+Donner le nom du fichier de maillage : ../../triangu/car1x1t_1
+* Module lecfima *
+
+ ELEMENT=  1    DE TYPE=    2    NB NOEUDS= 3
+ NuDElem   uDElem    SMbrElem    MatElem
+      0 0.0000e+00 1.6667e-01 5.8333e-01
+     -1 1.0000e+00 1.6667e-01 4.1667e-02 5.8333e-01
+      0 0.0000e+00 1.6667e-01 -4.5833e-01 -4.5833e-01 1.0833e+00
+
+ ELEMENT=  2    DE TYPE=    2    NB NOEUDS= 3
+ NuDElem   uDElem    SMbrElem    MatElem
+      1 0.0000e+00 6.6667e-01 9.1667e-01
+      1 0.0000e+00 6.6667e-01 4.1667e-02 9.1667e-01
+      1 0.0000e+00 1.1667e+00 -2.9167e-01 -2.9167e-01 1.7500e+00
+Sauvegarde de la S.M.D. dans le fichier SMD
+ ****** Affichage de la S.M.D. ******
+ Donner, dans l'intervalle [1,           4 ], les indices min et max des lignes a afficher. Taper q pour arreter.
+1 4
+
+ Ligne     SecMbr    Nuddir     Valdir
+     1   0.1667E+00       0   0.0000E+00
+     2   0.8333E+00       0   0.0000E+00
+     3   0.8333E+00      -3   0.1000E+01
+     4   0.1167E+01       4   0.0000E+00
+ === MATRICE ===========================
+ --- Ligne 1 ---
+Col   1 :    1.08333    
+ --- Ligne            2  ---
+Col   1 :  -0.458333    
+Col   2 :    1.50000    
+ --- Ligne            3  ---
+Col   2 :   0.833333E-01
+Col   1 :  -0.458333    
+Col   3 :    1.50000    
+ --- Ligne            4  ---
+Col   3 :  -0.291667    
+Col   2 :  -0.291667    
+Col   4 :    1.75000    
+ Donner, dans l'intervalle [1,           4 ], les indices min et max des lignes a afficher. Taper q pour arreter.
+q
+me041001 ~/source/ens/csmef/assemb/PP (64) 
+

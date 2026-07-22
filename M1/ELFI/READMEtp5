@@ -1,0 +1,16 @@
+Remarques concernant le TP5
+---------------------------
+- Dans un premier temps, vous pouvez utiliser temporairement la version binaire
+  de la procedure DMOAPR si vous le souhaitez, ceci afin d'obtenir plus rapidement
+  une solution. Il s'agit du fichier dmoapr.o (compatibilite binaire non assuree
+  en dehors des ordinateurs des salles de TP Math).
+
+  Le prototype de cette fonction et les commentaires donnant son mode d'emploi
+  se trouvent dans le fichier dmoapr.h.
+
+- dans le repertoire "maillage", vous trouverez des fichiers directement utilisables
+  pour l'etude de convergence finale (voir le fichier README dans ce repertoire).
+
+- le fichier tp5_RESU_d1t1_2_complet contient une trace d'execution avec le fichier
+  de maillage d1t1_2 pour verification. En exploitation normale, il n'est pas neces-
+  saire d'afficher ces etapes intermediaires.

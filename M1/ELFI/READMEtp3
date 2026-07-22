@@ -1,0 +1,19 @@
+Remarques concernant le TP3
+---------------------------
+- ne pas oublier les initialisations, notamment les tableaux Matrice, AdPrCoefLi,
+  SecMembre et NumDLDir (pour ce dernier : NumDLDir[i] = i+1;)
+  Cette initialisation de NumDLDir permet d'initialiser avec une condition non Dirichlet
+  sur chaque noeud, et de modifier NumDLDir et ValDLDir uniquement dans le cas 
+  de conditions de Dirichlet lors de la boucle sur les elements.
+- ne pas oublier d'initialiser NextAd a 1 avant la boucle sur les elements et
+  d'ajouter l'instruction
+   AdPrCoefLi[NbLign-1] = NextAd;
+  apres cette boucle pour terminer la structure de donnees.
+
+- l'usage des fonctions Fortran necessite de les declarer, a l'aide du fichier forfun.h,
+  et d'ajouter la reference a la bibliotheque Fortran lors de l'edition de liens. Pour
+  creer un executable, la procedure type ressemblera a ceci :
+
+gfortran -c *.f
+gcc -Wall *.c *.o -lm -lgfortran
+

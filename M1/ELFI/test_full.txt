@@ -1,0 +1,35 @@
+Numero de l'exemple (entre 1 et 6)?
+Donner le nom du fichier de maillage : 
+ ELEMENT=  1    DE TYPE=    1    NB NOEUDS= 4
+ NuDElem   uDElem    SMbrElem    MatElem
+      0 0.0000e+00 6.6667e-01 6.6667e-01
+      1 0.0000e+00 8.3333e-01 -1.6667e-01 6.6667e-01
+      0 0.0000e+00 6.6667e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+      0 0.0000e+00 5.0000e-01 -1.6667e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+
+ ELEMENT=  2    DE TYPE=    1    NB NOEUDS= 4
+ NuDElem   uDElem    SMbrElem    MatElem
+      0 0.0000e+00 5.0000e-01 6.6667e-01
+      0 0.0000e+00 6.6667e-01 -1.6667e-01 6.6667e-01
+      1 0.0000e+00 8.3333e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+      0 0.0000e+00 6.6667e-01 -1.6667e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+
+ ELEMENT=  3    DE TYPE=    1    NB NOEUDS= 4
+ NuDElem   uDElem    SMbrElem    MatElem
+      1 0.0000e+00 8.3333e-01 6.6667e-01
+      0 0.0000e+00 6.6667e-01 -1.6667e-01 6.6667e-01
+      0 0.0000e+00 5.0000e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+      0 0.0000e+00 6.6667e-01 -1.6667e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+
+ ELEMENT=  4    DE TYPE=    1    NB NOEUDS= 4
+ NuDElem   uDElem    SMbrElem    MatElem
+      0 0.0000e+00 6.6667e-01 6.6667e-01
+      0 0.0000e+00 5.0000e-01 -1.6667e-01 6.6667e-01
+      0 0.0000e+00 6.6667e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+      1 0.0000e+00 8.3333e-01 -1.6667e-01 -3.3333e-01 -1.6667e-01 6.6667e-01
+
+AFFICHAGE DE LA S.M.D 
+At line 31 of file affsmd.f (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+ ****** Affichage de la S.M.D. ******
+ Donner, dans l'intervalle [1,           9 ], les indices min et max des lignes a afficher. Taper q pour arreter.

@@ -1,0 +1,16 @@
+    Fichiers contenant les maillages pour l'etude de convergence.
+
+ Les deux domaines consideres sont D1 = [0,1]x[0,1] et D2 = [0,1/3]x[0,1/3].
+
+ Les numeros de reference choisis sont les suivants :
+   reference du domaine    0
+   reference des cotes     1   y=0
+                           2   x=1 pour D1, x=1/3 pour D2
+                           3   y=1 pour D1, y=1/3 pour D2
+                           4   x=0
+
+ Les fichiers sont nommes di*j_n avec
+  . i : le numero du domaine,
+  . * : "t" pour un maillage de triangles, "q" pour un maillage de quadrangles,
+  . j : l'ordre du maillage (1 pour P1 ou Q1, 2 pour P2 ou Q2),
+  . n : le nombre d'intervalles de subdivision en x et en y.

@@ -1,0 +1,360 @@
+
+===== cas=1 maillage=d1t1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.166666627
+Erreur maximum relative     : 0.166666627
+
+===== cas=1 maillage=d1t1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.048896912
+Erreur maximum relative     : 0.046875060
+
+===== cas=1 maillage=d1t1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.012726313
+Erreur maximum relative     : 0.012130380
+
+===== cas=1 maillage=d1t1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.003212693
+Erreur maximum relative     : 0.003059566
+
+===== cas=1 maillage=d1t1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000810668
+Erreur maximum relative     : 0.000771761
+
+===== cas=1 maillage=d1t1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000276404
+Erreur maximum relative     : 0.000274777
+
+===== cas=1 maillage=d1q1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.249999881
+Erreur maximum relative     : 0.249999881
+
+===== cas=1 maillage=d1q1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.054213119
+Erreur maximum relative     : 0.051785827
+
+===== cas=1 maillage=d1q1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.013060689
+Erreur maximum relative     : 0.012433052
+
+===== cas=1 maillage=d1q1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.003233451
+Erreur maximum relative     : 0.003078580
+
+===== cas=1 maillage=d1q1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000802688
+Erreur maximum relative     : 0.000764251
+
+===== cas=1 maillage=d1q1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000123707
+Erreur maximum relative     : 0.000108421
+
+===== cas=2 maillage=d1t1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.212811232
+Erreur maximum relative     : 0.212811232
+
+===== cas=2 maillage=d1t1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.052356991
+Erreur maximum relative     : 0.051812947
+
+===== cas=2 maillage=d1t1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.013075461
+Erreur maximum relative     : 0.012875855
+
+===== cas=2 maillage=d1t1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.003267670
+Erreur maximum relative     : 0.003213882
+
+===== cas=2 maillage=d1t1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000821852
+Erreur maximum relative     : 0.000807464
+
+===== cas=2 maillage=d1t1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000279407
+Erreur maximum relative     : 0.000280499
+
+===== cas=2 maillage=d1q1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.198422194
+Erreur maximum relative     : 0.198422194
+
+===== cas=2 maillage=d1q1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.051526763
+Erreur maximum relative     : 0.051526785
+
+===== cas=2 maillage=d1q1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.012865510
+Erreur maximum relative     : 0.012865424
+
+===== cas=2 maillage=d1q1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.003213210
+Erreur maximum relative     : 0.003213167
+
+===== cas=2 maillage=d1q1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000799485
+Erreur maximum relative     : 0.000800014
+
+===== cas=2 maillage=d1q1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000121723
+Erreur maximum relative     : 0.000120461
+
+===== cas=3 maillage=d1t1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.266022006
+Erreur maximum relative     : 0.236831844
+
+===== cas=3 maillage=d1t1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.078958164
+Erreur maximum relative     : 0.098469853
+
+===== cas=3 maillage=d1t1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.020838486
+Erreur maximum relative     : 0.036604881
+
+===== cas=3 maillage=d1t1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.005087906
+Erreur maximum relative     : 0.012104273
+
+===== cas=3 maillage=d1t1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.001239378
+Erreur maximum relative     : 0.003747880
+
+===== cas=3 maillage=d1t1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000361556
+Erreur maximum relative     : 0.001309931
+
+===== cas=3 maillage=d1q1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.208769679
+Erreur maximum relative     : 0.208769798
+
+===== cas=3 maillage=d1q1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.054056792
+Erreur maximum relative     : 0.054057240
+
+===== cas=3 maillage=d1q1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.013487829
+Erreur maximum relative     : 0.013489008
+
+===== cas=3 maillage=d1q1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.003367579
+Erreur maximum relative     : 0.003368497
+
+===== cas=3 maillage=d1q1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000851146
+Erreur maximum relative     : 0.000853658
+
+===== cas=3 maillage=d1q1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000143736
+Erreur maximum relative     : 0.000162959
+
+===== cas=4 maillage=d2t1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.001872794
+Erreur maximum relative     : 0.002604357
+
+===== cas=4 maillage=d2t1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.000731138
+Erreur maximum relative     : 0.000732495
+
+===== cas=4 maillage=d2t1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.000216735
+Erreur maximum relative     : 0.000189310
+
+===== cas=4 maillage=d2t1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.000058124
+Erreur maximum relative     : 0.000047488
+
+===== cas=4 maillage=d2t1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000018376
+Erreur maximum relative     : 0.000014484
+
+===== cas=4 maillage=d2t1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000049524
+Erreur maximum relative     : 0.000041453
+
+===== cas=4 maillage=d2q1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.002808933
+Erreur maximum relative     : 0.003906177
+
+===== cas=4 maillage=d2q1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.000810501
+Erreur maximum relative     : 0.000809140
+
+===== cas=4 maillage=d2q1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.000222499
+Erreur maximum relative     : 0.000194100
+
+===== cas=4 maillage=d2q1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.000057969
+Erreur maximum relative     : 0.000047224
+
+===== cas=4 maillage=d2q1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000009921
+Erreur maximum relative     : 0.000008185
+
+===== cas=4 maillage=d2q1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000062873
+Erreur maximum relative     : 0.000052542
+
+===== cas=5 maillage=d2t1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.003063559
+Erreur maximum relative     : 0.004084751
+
+===== cas=5 maillage=d2t1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.001189757
+Erreur maximum relative     : 0.001132947
+
+===== cas=5 maillage=d2t1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.000354693
+Erreur maximum relative     : 0.000291765
+
+===== cas=5 maillage=d2t1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.000095781
+Erreur maximum relative     : 0.000073234
+
+===== cas=5 maillage=d2t1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000028066
+Erreur maximum relative     : 0.000020504
+
+===== cas=5 maillage=d2t1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000049686
+Erreur maximum relative     : 0.000038187
+
+===== cas=5 maillage=d2q1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.001098394
+Erreur maximum relative     : 0.001464528
+
+===== cas=5 maillage=d2q1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.000337363
+Erreur maximum relative     : 0.000309428
+
+===== cas=5 maillage=d2q1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.000093973
+Erreur maximum relative     : 0.000083725
+
+===== cas=5 maillage=d2q1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.000024086
+Erreur maximum relative     : 0.000019749
+
+===== cas=5 maillage=d2q1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000001316
+Erreur maximum relative     : 0.000001411
+
+===== cas=5 maillage=d2q1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000062416
+Erreur maximum relative     : 0.000048518
+
+===== cas=6 maillage=d2t1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.051982080
+Erreur maximum relative     : 0.097343072
+
+===== cas=6 maillage=d2t1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.012039645
+Erreur maximum relative     : 0.032990664
+
+===== cas=6 maillage=d2t1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.002710647
+Erreur maximum relative     : 0.010464638
+
+===== cas=6 maillage=d2t1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.000614059
+Erreur maximum relative     : 0.003161401
+
+===== cas=6 maillage=d2t1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000162738
+Erreur maximum relative     : 0.000952259
+
+===== cas=6 maillage=d2t1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000269775
+Erreur maximum relative     : 0.000557587
+
+===== cas=6 maillage=d2q1_2 =====
+Nombre de noeuds : 9
+Erreur quadratique relative : 0.007223139
+Erreur maximum relative     : 0.011327267
+
+===== cas=6 maillage=d2q1_4 =====
+Nombre de noeuds : 25
+Erreur quadratique relative : 0.001486190
+Erreur maximum relative     : 0.002712682
+
+===== cas=6 maillage=d2q1_8 =====
+Nombre de noeuds : 81
+Erreur quadratique relative : 0.000329730
+Erreur maximum relative     : 0.000664786
+
+===== cas=6 maillage=d2q1_16 =====
+Nombre de noeuds : 289
+Erreur quadratique relative : 0.000080227
+Erreur maximum relative     : 0.000169799
+
+===== cas=6 maillage=d2q1_32 =====
+Nombre de noeuds : 1089
+Erreur quadratique relative : 0.000027056
+Erreur maximum relative     : 0.000052989
+
+===== cas=6 maillage=d2q1_64 =====
+Nombre de noeuds : 4225
+Erreur quadratique relative : 0.000261190
+Erreur maximum relative     : 0.000313535
